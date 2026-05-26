@@ -1,0 +1,7 @@
+file=open("Data handling (file open close).txt","w")
+file.write("Hello,Python!")
+file.close()
+file=open("Data handling (file open close).txt","r")
+content=file.read()
+print(content)
+file.close()
